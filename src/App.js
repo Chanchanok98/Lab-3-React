@@ -5,7 +5,7 @@ import CharacterCard from './CharacterCard';
 import cat1 from './cat.png'
 
 
-let message = 'cat'
+let message = 'ca'
  
 const prepareStateFromWord = (given_word) => {
   let word = given_word.toUpperCase()

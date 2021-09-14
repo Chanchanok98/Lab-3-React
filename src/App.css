@@ -10,7 +10,7 @@
  body{
    background-image: url('./bg.jpg');
    height: 100%; 
-   width: 100%
+   width: 100%;
  }
  .activeCard {
   color:#0000AA;

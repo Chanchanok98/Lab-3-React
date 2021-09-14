@@ -58,7 +58,7 @@ class App extends React.Component {
               activationHandler={this.activationHandler}
               reset = {this.state.reset}
             />
-          )
+          ))
         }
         <h2>Selected</h2>
     

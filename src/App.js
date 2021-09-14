@@ -30,7 +30,7 @@ class App extends React.Component {
     })
   }
   activationHandler = (c) => {
-    let guess = [...this.state.guess, c]
+    let guess = [...this.state.guess, c]git add README.md
     this.setState({ guess })
     if (guess.length === this.state.chars.length) {
       if (guess.join('').toString() === this.state.word) {
@@ -58,7 +58,7 @@ class App extends React.Component {
               activationHandler={this.activationHandler}
               reset = {this.state.reset}
             />
-          ))
+          )
         }
         <h2>Selected</h2>
     
